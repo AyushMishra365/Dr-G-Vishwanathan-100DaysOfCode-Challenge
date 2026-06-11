@@ -14,46 +14,41 @@
 
 ## 📖 About the Challenge
 
-The Dr. G. Viswanathan 100 Days of Code Challenge is a commitment to solving coding problems consistently every day.
+Welcome to my **Dr. G. Viswanathan 100 Days of Code Challenge** journey!
 
-This repository serves as a public journal of my journey through Data Structures & Algorithms, Competitive Programming, and problem-solving.
+This challenge, initiated by the **VIT Bhopal Placement Office**, is designed to encourage students to develop strong programming fundamentals through consistent daily practice.
 
-Rather than focusing only on solutions, this repository documents the learning process, approaches, and progress made each day.
+Over the next 100 days, I am committed to solving coding problems every day with a primary focus on strengthening my understanding of **Data Structures and Algorithms (DSA)** and the problem-solving techniques that form the foundation of efficient software engineering.
+
+This repository serves as a public journal of my progress, documenting the problems I solve, the approaches I learn, and the lessons I gain throughout this journey.
 
 ---
 
 ## 🎯 Objectives
 
-- Develop consistency in coding
 - Strengthen Data Structures & Algorithms concepts
-- Improve analytical and problem-solving skills
-- Prepare for coding interviews and competitive programming
-- Build a habit of continuous learning
+- Develop strong problem-solving skills
+- Build consistency and coding discipline
+- Improve analytical thinking and optimization techniques
+- Prepare for technical interviews and competitive programming
+- Build a strong GitHub profile through continuous learning
 
 ---
 
-## 📊 Progress Tracker
+## 💻 Platforms & Competitive Programming
 
-| Milestone | Status |
-|------------|----------|
-| Day 1 | ✅ |
-| Day 5 | ✅ |
-| Day 10 | ✅ |
-| Day 25 | ⏳ |
-| Day 50 | ⏳ |
-| Day 75 | ⏳ |
-| Day 100 | ⏳ |
+For this challenge, I primarily solve problems on:
 
-### Current Progress
+- LeetCode
+- Codeforces
 
-```text
-12 / 100 Days Completed
+In addition to daily problem-solving, I actively participate in:
 
-████████████░░░░░░░░░░░░░░░░░░
-12%
-```
+- Codeforces Contests
+- CodeChef Contests
+- LeetCode Weekly & Biweekly Contests
 
-🔥 Current Streak: 12 Days
+Participating in these contests helps me apply DSA concepts under time constraints, improve my competitive programming skills, and learn efficient problem-solving strategies.
 
 ---
 
@@ -75,8 +70,6 @@ Day-02
 ├── Problem-1
 │   ├── README.md
 │   └── Solution.java
-
-...
 ```
 
 Each problem folder contains:
@@ -89,49 +82,15 @@ Each problem folder contains:
 
 ---
 
-## 🧠 Topics Covered
+## 🌱 Why Am I Doing This?
 
-- Arrays
-- Strings
-- Hashing
-- Stack
-- Queue
-- Linked List
-- Binary Search
-- Recursion
-- Trees
-- Graphs
-- Dynamic Programming
+The primary goal of this challenge is to build a strong foundation in **Data Structures and Algorithms**.
+
+I strongly believe that consistency beats intensity. By solving problems every day, analyzing different approaches, and participating in coding contests, I aim to deepen my understanding of DSA, improve coding efficiency, strengthen logical thinking, and become a better problem solver.
+
+This challenge is not just about reaching Day 100—it's about developing the mindset, discipline, and technical skills required for software engineering and competitive programming success.
 
 ---
 
-## 🌱 Why This Challenge?
-
-Success in coding isn't built in a single day.
-
-It's built through small, consistent efforts repeated over time.
-
-This repository is my attempt to document that journey and become a better problem solver every day.
-
----
-
-## 📅 Completed Days
-
-| Day | Folder |
-|-----|--------|
-| 1 | Day-01 |
-| 2 | Day-02 |
-| 3 | Day-03 |
-| 4 | Day-04 |
-| 5 | Day-05 |
-| 6 | Day-06 |
-| 7 | Day-07 |
-| 8 | Day-08 |
-| 9 | Day-09 |
-| 10 | Day-10 |
-| 11 | Day-11 |
-| 12 | Day-12 |
-
----
-
+### ⭐ If you're following my journey, feel free to star the repository!
 ### ⭐ If you're following my journey, feel free to star the repository!
