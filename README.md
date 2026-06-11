@@ -91,5 +91,5 @@ This challenge is not just about reaching Day 100—it's about developing the mi
 
 ---
 
-### ⭐ If you're following my journey, feel free to star the repository!
+
 ### ⭐ If you're following my journey, feel free to star the repository!
