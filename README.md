@@ -1,5 +1,4 @@
-                                               # 🚀 Dr. G. Viswanathan 100 Days of Code Challenge
-
+<h1 align="center">🚀 Dr. G. Viswanathan 100 Days of Code Challenge</h1>
 <div align="center">
 
 ### Building consistency, one problem at a time.
