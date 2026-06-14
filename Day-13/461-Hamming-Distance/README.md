@@ -1,17 +1,56 @@
+<div align="center">
+
 # 461. Hamming Distance
 
-## Platform
+![Platform](https://img.shields.io/badge/Platform-LeetCode-orange)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+![Topic](https://img.shields.io/badge/Topic-BitManipulation-red)
 
-- LeetCode
+</div>
+
+---
 
 ## Problem Statement
 
-Given two integers `x` and `y`, return the number of bit positions where the corresponding bits are different.
+The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
 
-## Approach
+Return the Hamming distance between two given integers.
 
-- Used XOR to identify different bits.
-- Counted the set bits in the XOR result using Brian Kernighan's algorithm.
+---
+
+## Example
+
+### Input
+
+```text
+x = 1
+y = 4
+```
+
+### Output
+
+```text
+2
+```
+
+### Explanation
+
+```text
+1 = 001
+4 = 100
+
+Differing positions = 2
+```
+
+---
+
+## Constraints
+
+```text
+0 ≤ x, y ≤ 2³¹ - 1
+```
+
+---
 
 ## Problem Link
 
