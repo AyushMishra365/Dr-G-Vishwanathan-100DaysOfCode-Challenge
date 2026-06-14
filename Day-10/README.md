@@ -6,8 +6,8 @@
 
 ## Problems Solved
 
-- 71A. Way Too Long Words
-- 131A. cAPS lOCK
+- [71A. Way Too Long Words](./71A-Way-Too-Long-Words)
+- [131A. cAPS lOCK](./131A-cAPS-lOCK)
 
 ## Key Concepts
 

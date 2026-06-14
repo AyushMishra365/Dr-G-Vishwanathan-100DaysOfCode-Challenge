@@ -6,9 +6,9 @@
 
 ## Problems Solved
 
-- 136. Single Number
-- 191. Number of 1 Bits
-- 1328. Break a Palindrome
+- [136. Single Number](./136-Single-Number)
+- [191. Number of 1 Bits](./191-Number-of-1-Bits)
+- [1328. Break a Palindrome](./1328-Break-a-Palindrome)
 
 ## Key Concepts
 

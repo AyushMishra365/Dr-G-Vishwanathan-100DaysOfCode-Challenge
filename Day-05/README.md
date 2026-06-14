@@ -6,8 +6,8 @@
 
 ## Problems Solved
 
-- 15. 3Sum
-- 16. 3Sum Closest
+- [15. 3Sum](./15-3Sum)
+- [16. 3Sum Closest](./16-3Sum-Closest)
 
 ## Key Concepts
 

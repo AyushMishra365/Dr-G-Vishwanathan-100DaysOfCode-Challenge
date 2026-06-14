@@ -6,7 +6,7 @@
 
 ## Problems Solved
 
-- 925. Long Pressed Name
+- [925. Long Pressed Name](./925-Long-Pressed-Name)
 
 ## Key Concepts
 

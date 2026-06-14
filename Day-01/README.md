@@ -6,9 +6,9 @@
 
 ## Problems Solved
 
-- 88. Merge Sorted Array
-- 169. Majority Element
-- 1. Two Sum
+- [1. Two Sum](./1-Two-Sum)
+- [88. Merge Sorted Array](./88-Merge-Sorted-Array)
+- [169. Majority Element](./169-Majority-Element)
 
 ## Key Concepts
 

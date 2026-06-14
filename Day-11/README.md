@@ -7,9 +7,9 @@
 
 ## Problems Solved
 
-- 208A. Dubstep
-- 392. Is Subsequence
-- 14. Longest Common Prefix
+- [208A. Dubstep](./208A-Dubstep)
+- [392. Is Subsequence](./392-Is-Subsequence)
+- [14. Longest Common Prefix](./14-Longest-Common-Prefix)
 
 ## Key Concepts
 

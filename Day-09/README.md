@@ -6,8 +6,8 @@
 
 ## Problems Solved
 
-- 6. Zigzag Conversion
-- 1071. Greatest Common Divisor of Strings
+- [6. Zigzag Conversion](./6-Zigzag-Conversion)
+- [1071. Greatest Common Divisor of Strings](./1071-Greatest-Common-Divisor-of-Strings)
 
 ## Key Concepts
 

@@ -6,9 +6,9 @@
 
 ## Problems Solved
 
-- 58. Length of Last Word
-- 125. Valid Palindrome
-- 1616. Split Two Strings to Make Palindrome
+- [58. Length of Last Word](./58-Length-of-Last-Word)
+- [125. Valid Palindrome](./125-Valid-Palindrome)
+- [1616. Split Two Strings to Make Palindrome](./1616-Split-Two-Strings-to-Make-Palindrome)
 
 ## Key Concepts
 

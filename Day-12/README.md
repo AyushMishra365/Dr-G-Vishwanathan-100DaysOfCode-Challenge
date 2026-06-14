@@ -7,8 +7,8 @@
 
 ## Problems Solved
 
-- 112A. Petya and Strings
-- 412. Fizz Buzz
+- [112A. Petya and Strings](./112A-Petya-and-Strings)
+- [412. Fizz Buzz](./412-Fizz-Buzz)
 
 ## Key Concepts
 

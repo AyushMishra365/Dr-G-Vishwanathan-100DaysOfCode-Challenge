@@ -7,10 +7,10 @@
 
 ## Problems Solved
 
-- 41A. Translation
-- 236A. Boy or Girl
-- 461. Hamming Distance
-- 476. Number Complement 
+- [41A. Translation](./41A-Translation)
+- [236A. Boy or Girl](./236A-Boy-or-Girl)
+- [461. Hamming Distance](./461-Hamming-Distance)
+- [476. Number Complement](./476-Number-Complement)
 
 ## Key Concepts
 

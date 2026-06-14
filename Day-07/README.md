@@ -6,9 +6,9 @@
 
 ## Problems Solved
 
-- 1051. Height Checker
-- 1464. Maximum Product of Two Elements in an Array
-- 976. Largest Perimeter Triangle
+- [1051. Height Checker](./1051-Height-Checker)
+- [1464. Maximum Product of Two Elements in an Array](./1464-Maximum-Product-of-Two-Elements-in-an-Array)
+- [976. Largest Perimeter Triangle](./976-Largest-Perimeter-Triangle)
 
 ## Key Concepts
 

@@ -7,8 +7,8 @@
 
 ## Problems Solved
 
-- 320A. Magic Numbers
-- 13. Roman to Integer
+- [320A. Magic Numbers](./320A-Magic-Numbers)
+- [13. Roman to Integer](./13-Roman-to-Integer)
 
 ## Key Concepts
 

@@ -6,8 +6,8 @@
 
 ## Problems Solved
 
-- 217. Contains Duplicate
-- 56. Merge Intervals
+- [217. Contains Duplicate](./217-Contains-Duplicate)
+- [56. Merge Intervals](./56-Merge-Intervals)
 
 ## Key Concepts
 
