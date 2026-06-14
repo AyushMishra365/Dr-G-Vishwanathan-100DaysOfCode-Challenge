@@ -1,20 +1,57 @@
+<div align="center">
+
 # 41A. Translation
 
-## Platform
+![Platform](https://img.shields.io/badge/Platform-Codeforces-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-800-success)
+![Topic](https://img.shields.io/badge/Topic-Strings-orange)
 
-- Codeforces
+</div>
+
+---
 
 ## Problem Statement
 
 Given two strings, determine whether the second string is the reverse of the first string.
 
-Print `YES` if it is a valid translation, otherwise print `NO`.
+Print:
 
-## Approach
+```text
+YES
+```
 
-- Compared both strings from opposite ends.
-- If any character did not match, marked the answer as invalid.
-- Printed the final result.
+if it is a valid translation, otherwise print:
+
+```text
+NO
+```
+
+---
+
+## Example
+
+### Input
+
+```text
+code
+edoc
+```
+
+### Output
+
+```text
+YES
+```
+
+---
+
+## Constraints
+
+```text
+1 ≤ length of strings ≤ 100
+```
+
+---
 
 ## Problem Link
 
