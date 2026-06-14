@@ -1,21 +1,56 @@
+<div align="center">
+
 # 236A. Boy or Girl
 
-## Platform
+![Platform](https://img.shields.io/badge/Platform-Codeforces-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-800-success)
+![Topic](https://img.shields.io/badge/Topic-Strings-orange)
 
-- Codeforces
+</div>
+
+---
 
 ## Problem Statement
 
-Given a username, determine whether the number of distinct characters is even or odd.
+Count the number of distinct characters in the username.
 
-If the number of distinct characters is even, print `CHAT WITH HER!`; otherwise print `IGNORE HIM!`.
+If the count is even, print:
 
-## Approach
+```text
+CHAT WITH HER!
+```
 
-- Converted the string into a character array.
-- Sorted the array.
-- Counted distinct adjacent characters.
-- Checked whether the count was even or odd.
+Otherwise print:
+
+```text
+IGNORE HIM!
+```
+
+---
+
+## Example
+
+### Input
+
+```text
+wjmzbmr
+```
+
+### Output
+
+```text
+CHAT WITH HER!
+```
+
+---
+
+## Constraints
+
+```text
+1 ≤ length ≤ 100
+```
+
+---
 
 ## Problem Link
 
