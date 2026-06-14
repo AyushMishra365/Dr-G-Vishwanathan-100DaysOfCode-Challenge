@@ -3,7 +3,7 @@
 
 ### Building consistency, one problem at a time.
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-12%2F100-success)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-15%2F100-success)
 ![Language](https://img.shields.io/badge/Language-Java-orange)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
@@ -56,6 +56,8 @@ Participating in these contests helps me apply DSA concepts under time constrain
 ```text
 Day-01
 │
+├── README.md
+│
 ├── Problem-1
 │   ├── README.md
 │   └── Solution.java
@@ -66,10 +68,17 @@ Day-01
 
 Day-02
 │
+├── README.md
+│
 ├── Problem-1
 │   ├── README.md
 │   └── Solution.java
 ```
+
+Each day folder contains:
+
+- Daily summary README
+- Problem-wise folders
 
 Each problem folder contains:
 
