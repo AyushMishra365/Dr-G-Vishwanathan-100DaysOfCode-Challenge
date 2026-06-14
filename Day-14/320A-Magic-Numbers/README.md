@@ -1,18 +1,82 @@
+<div align="center">
+
 # 320A. Magic Numbers
 
-## Platform
+![Platform](https://img.shields.io/badge/Platform-Codeforces-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-1000-success)
+![Topic](https://img.shields.io/badge/Topic-Greedy-green)
 
-- Codeforces
+</div>
+
+---
 
 ## Problem Statement
 
-Determine whether a number is a magic number. A magic number can be formed using only the patterns `1`, `14`, and `144`.
+A number is considered magic if it consists only of the digits:
 
-## Approach
+```text
+1
+14
+144
+```
 
-- Traversed the string from left to right.
-- Matched the longest valid pattern first: `144`, then `14`, then `1`.
-- Printed `NO` when no valid pattern matched.
+in any valid sequence.
+
+Determine whether the given number is magic.
+
+Print:
+
+```text
+YES
+```
+
+or
+
+```text
+NO
+```
+
+---
+
+## Example
+
+### Input
+
+```text
+114114
+```
+
+### Output
+
+```text
+YES
+```
+
+---
+
+## Example
+
+### Input
+
+```text
+441231
+```
+
+### Output
+
+```text
+NO
+```
+
+---
+
+## Constraints
+
+```text
+1 ≤ length ≤ 10
+```
+
+---
 
 ## Problem Link
 
