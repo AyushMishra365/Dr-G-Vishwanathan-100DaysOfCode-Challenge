@@ -10,10 +10,7 @@
 - 41A. Translation
 - 236A. Boy or Girl
 - 461. Hamming Distance
-<<<<<<< HEAD
-=======
-- 476. Number Complement (NOT POSTED ON LINKEDIN)
->>>>>>> 74bcff589b46acffcfe272a67f1010e6e85c85d0
+- 476. Number Complement 
 
 ## Key Concepts
 
