@@ -1,19 +1,99 @@
+<div align="center">
+
 # 13. Roman to Integer
 
-## Platform
+![Platform](https://img.shields.io/badge/Platform-LeetCode-orange)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+![Topic](https://img.shields.io/badge/Topic-Strings-blue)
 
-- LeetCode
+</div>
+
+---
 
 ## Problem Statement
 
-Given a Roman numeral, convert it to an integer.
+Convert a Roman numeral into its integer representation.
 
-## Approach
+Roman numerals are represented using:
 
-- Traversed the string from right to left.
-- Converted each Roman character to its numeric value.
-- Subtracted the current value if it was smaller than the previous value.
-- Otherwise, added it to the answer.
+```text
+I = 1
+V = 5
+X = 10
+L = 50
+C = 100
+D = 500
+M = 1000
+```
+
+Special subtraction rules apply:
+
+```text
+IV = 4
+IX = 9
+XL = 40
+XC = 90
+CD = 400
+CM = 900
+```
+
+---
+
+## Example 1
+
+### Input
+
+```text
+III
+```
+
+### Output
+
+```text
+3
+```
+
+---
+
+## Example 2
+
+### Input
+
+```text
+LVIII
+```
+
+### Output
+
+```text
+58
+```
+
+---
+
+## Example 3
+
+### Input
+
+```text
+MCMXCIV
+```
+
+### Output
+
+```text
+1994
+```
+
+---
+
+## Constraints
+
+```text
+1 <= s.length <= 15
+```
+
+---
 
 ## Problem Link
 
