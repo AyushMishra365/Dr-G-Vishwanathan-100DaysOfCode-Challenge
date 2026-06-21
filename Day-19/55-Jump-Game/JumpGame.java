@@ -1,17 +1,14 @@
 public class JumpGame {
-    public static boolean canJump(int[] arr) {
-        arr=[3,2,1,0,4];
-        int last=arr.length;
-        int position=1;
-        while(position!=arr.length+1){
-            if(position==0){
-                return false;
+    public static void main(String[] args) {
+        int[] arr= {3,2,1,0,4};
+        int last=arr.length-1;
+        int position=0;
+        for(int i=0; i<arr.length; i++){
+            if(i>position){
+                System.out.println(false);
             }
-            position+=arr[position];
-            if(position==last){
-                return true;
-            }
+            position=Math.max(position, i+arr[i]);
         }
-        return false;
+        System.out.println(true);
     }
 }

@@ -17,6 +17,8 @@ public class BreakAPalindorme {
         arr[arr.length-1]='b';
         System.out.println(new String(arr));
         return;
+
+        //THE LOWER CODE IS ALSO CORRECT, IT JUST TAKES MORE TIME TO EXECUTE, BECAUSE OF THE STRING CONCATENATION, IT CREATES NEW STRING AT EVERY CONCATENATION. 
         // if(palindrome.length()==1){
         //     System.out.println("");
         // }

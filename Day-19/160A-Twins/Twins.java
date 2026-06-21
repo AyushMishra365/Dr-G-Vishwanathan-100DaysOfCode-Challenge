@@ -16,7 +16,7 @@ public class Twins {
         for(int i=n-1; i>=0;i--){
             mySum+=arr[i];
             ans++;
-            if(ans>totalSum-mySum){
+            if(mySum>totalSum-mySum){
                 System.out.println(ans);
                 break;
             }
