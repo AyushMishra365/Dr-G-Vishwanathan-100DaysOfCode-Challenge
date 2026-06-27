@@ -1,0 +1,72 @@
+<div align="center">
+
+# A. Captain Flint and Crew Recruitment
+
+![Platform](https://img.shields.io/badge/Platform-Codeforces-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-800-green)
+![Topic](https://img.shields.io/badge/Topic-Math-orange)
+![Status](https://img.shields.io/badge/Status-Solved-success)
+
+</div>
+
+---
+
+## Problem Statement
+
+Given an integer `n`, determine whether it can be expressed as the sum of four distinct positive integers where at least three of them are nearly prime numbers. If possible, output one valid construction.
+
+---
+
+## My Approach
+
+### Idea
+
+Use a fixed set of nearly prime numbers.
+
+For most cases, the numbers `6`, `10`, and `14` satisfy the requirement. The remaining value is simply `n - 30`.
+
+However, when the remaining value becomes one of the existing numbers (`6`, `10`, or `14`), duplicates occur. These special cases (`36`, `40`, and `44`) are handled separately by replacing `14` with `15`.
+
+### Steps
+
+1. If `n ≤ 30`, print **NO**.
+2. Otherwise:
+   - Use `6 10 14 (n-30)` for normal cases.
+   - For `36`, `40`, and `44`, output `6 10 15 (n-31)`.
+
+---
+
+## Complexity Analysis
+
+```text
+Time Complexity : O(1)
+
+Space Complexity: O(1)
+```
+
+---
+
+## Concepts Learned
+
+- Constructive Algorithms
+- Mathematical Observation
+- Special Case Handling
+- Number Theory
+
+---
+
+## Performance
+
+```text
+Verdict : Accepted
+
+Time : 281 ms
+
+Memory : 1168 KB
+```
+
+---
+
+## Notes
+
+The key observation is that only a few edge cases create duplicate numbers. Once those are handled separately, the remaining construction works for every valid input, resulting in a very clean constant-time solution.
