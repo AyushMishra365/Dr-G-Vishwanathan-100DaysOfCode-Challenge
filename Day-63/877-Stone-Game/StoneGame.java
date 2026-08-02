@@ -1,0 +1,65 @@
+public class StoneGame {
+// solved using recusrion, but time limit exceeded
+    // public boolean stoneGame(int[] piles) {
+    //     return solve(piles,0,piles.length-1)>=0;
+    // }
+    // public int solve(int[] nums, int left, int right) {
+    //     if (left==right) {
+    //         return nums[left];
+    //     }
+    //     int pickLeft=nums[left]-solve(nums,left+1,right);
+    //     int pickRight=nums[right]-solve(nums,left,right-1);
+    //     return Math.max(pickLeft, pickRight);
+    // }
+
+//DP SOLUTION , SAME AS 486 LEETCODE 
+    Integer[][] dp;
+    public boolean stoneGame(int[] piles) {
+        int n=piles.length;
+        dp=new Integer[n][n];
+        return solve(piles,0,n-1)>=0; 
+    }
+    public int solve(int[] nums, int left, int right){
+        if(left==right){
+            return nums[left];
+        }
+        if(dp[left][right]!=null){  
+            return dp[left][right];
+        }
+        int pickleft=nums[left]-solve(nums,left+1,right);   
+        int pickright=nums[right]-solve(nums,left,right-1); 
+        dp[left][right]=Math.max(pickleft,pickright);  
+        return dp[left][right]; 
+    }
+
+//     This is a special case of 486. Predict the Winner.
+// Now, this problem introduces two important constraints:
+// The length of the piles is always even.
+// The total number of stones is odd, so a tie is impossible.
+// Intuition
+// We partition the piles into two groups according to their indices:
+// Pink : Even index
+// Blue : Odd index
+// Since both players play optimally, we can determine our strategy before the game begins:
+// Alice moves first, so the two ends of the array always have opposite parity.
+// Hence, on the first move, Alice always choose either the Pink, or the Blue piles (whichever has the larger sum).
+
+// Observation:
+// During Alice's turn:
+// The two ends always have opposite parity.
+// During Bob's turn:
+// The two ends always have the same parity.
+
+// Since Alice always has a choice between the two parities, she can always obtain the parity with the larger total sum.
+// Consequently, Bob is left with the parity having the smaller total sum.
+
+// Summary
+// Because the piles array has an even length, Alice can always force taking either all even, or all odd indexed piles.
+// Since the total number of stones is odd, then one parity has a strictly larger total sum.
+// Therefore, Alice is guaranteed to collect more stones than Bob, so the answer is always: true
+
+//THEREFORE,
+    //public boolean stoneGame(int[] piles) {
+    //     return true;
+    // }
+}
