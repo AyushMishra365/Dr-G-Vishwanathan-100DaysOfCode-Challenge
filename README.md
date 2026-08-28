@@ -3,7 +3,7 @@
 
 ### Building consistency, one problem at a time.
 
-![Days Completed](https://img.shields.io/badge/Days%20Completed-88%2F100-success)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-89%2F100-success)
 ![Language](https://img.shields.io/badge/Language-Java-orange)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
